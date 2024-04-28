@@ -1,0 +1,15 @@
+The formula:
+
+https://www.scientificamerican.com/article/simple-formula-makes-prime-numbers-easy-but-a-million-dollar-mystery-remains/
+
+A variation on Wilsons formula using modular arithmetic has been used - this replaces what is within the 'cosine' part of the function.
+
+Note on factorial caching (for modular_factorial_recur function):
+A cache limit (#define RECUR_CACHE_LIMIT) of 22 has been set because of the limitations imposed by integer data types
+
+The largest integer that can be stored in a LLU int is 2^64: 21! is the largest factorial that can be stored. The cache indexes match the value for factorial therefor the '0'th index is 0!, and [21] with provide 21!.
+
+<!-- TODO -->
+Discuss optomisation Wilsons vs regular factorial
+regular factoral has data type size limit
+Wilsons means cannot be cache as each iteration 
