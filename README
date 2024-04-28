@@ -10,6 +10,6 @@ A cache limit (#define RECUR_CACHE_LIMIT) of 22 has been set because of the limi
 The largest integer that can be stored in a LLU int is 2^64: 21! is the largest factorial that can be stored. The cache indexes match the value for factorial therefor the '0'th index is 0!, and [21] with provide 21!.
 
 <!-- TODO -->
-Discuss optomisation Wilsons vs regular factorial
+Document optomisation Wilsons vs regular factorial
 regular factoral has data type size limit
 Wilsons means cannot be cache as each iteration 
